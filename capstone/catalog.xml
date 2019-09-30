@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<catalog>
+  <product id="35">
+    <image>10008.jpg</image>
+    <name>Bacon</name>
+    <description>Total Fat 3.6g, Cholesterol 9mg, Sodium 196mg, Total Carbs 0.1g, Protein 3.1g, Calcium 0.9mg and Potassium 48mg</description>
+    <category>Breakfast</category>
+    <price>12</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+  <product id="56">
+    <image>11515.jpg</image>
+    <name>Cakes</name>
+    <description>Calories 227, Total fat 10g, Cholesterol 59mg, Sodium 439mg, Potassium 132mg, Total Carbohydrate 28g, Protein 6g, Rich in vit. A, vit. b-12, Calcium, Iron and Magnesium</description>
+    <category>Meryenda</category>
+    <price>15</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+  <product id="40">
+    <image>27376.jpg</image>
+    <name>Caldereta</name>
+    <description>Calories 410, Total fat 10.4g, Cholesterol 100mg, Sodium 679 mg, Total Carbohydrates 37.8g and Protein 41.5g</description>
+    <category>Lunch</category>
+    <price>30</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+  <product id="34">
+    <image>10035.jpg</image>
+    <name>Fried Egg</name>
+    <description>Serving Size 1 large: Total Fat 7.04g, Cholesterol 210mg, Sodium 94mg, Potassium 68mg, Total Carbohydrates 0.4g and Protein 6.27g</description>
+    <category>Breakfast</category>
+    <price>8</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+  <product id="38">
+    <image>11515.jpg</image>
+    <name>Pancakes</name>
+    <description>Calories 227, Total fat 10g, Cholesterol 59mg, Sodium 439mg, Potassium 132mg, Total Carbohydrate 28g, Protein 6g, Rich in vit. A, vit. b-12, Calcium, Iron and Magnesium</description>
+    <category>Breakfast</category>
+    <price>15</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+  <product id="42">
+    <image>3926.jpg</image>
+    <name>Pork Menudo</name>
+    <description>Calories 304, Total fat 9.6g, Cholesterol 80mg, Sodium 860mg, Potassium 1000mg, Total Carbohydrates 28g, Protein 26.8g and Rich in vit A,C,E,B6,B12, Calcium, Iron, and Magnesium</description>
+    <category>Lunch</category>
+    <price>30</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+  <product id="43">
+    <image>4427.jpg</image>
+    <name>Pork Sinigang</name>
+    <description>Calories 222, Total fat 10.08g, Cholesterol 49mg, Sodium 412mg, Potassium 567mg, Total Carbs 17g and Rich in vit A,C, Calcium and Iron</description>
+    <category>Lunch</category>
+    <price>35</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+  <product id="39">
+    <image>1352.jpg</image>
+    <name>Rice</name>
+    <description>Calories 130, Protein 2.4g, Carbs 28.7g, Fat 0.2g</description>
+    <category>Lunch</category>
+    <price>5</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+  <product id="41">
+    <image>22633.jpg</image>
+    <name>Sizzling Pork Sisig</name>
+    <description>Calories 690, Total Fat 27.0g, Cholesterol 315mg, Sodium 1230mg, Potassium 1450mg, Total Carbohydrates 9g and Protein 96.0</description>
+    <category>Lunch</category>
+    <price>40</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+  <product id="36">
+    <image>20106.jpg</image>
+    <name>Tocino</name>
+    <description>Total fat 16g, Calories 310 and Cholesterol 70mg</description>
+    <category>Breakfast</category>
+    <price>15</price>
+    <status>AVAILABLE</status>
+    <deleted>0</deleted>
+  </product>
+</catalog>

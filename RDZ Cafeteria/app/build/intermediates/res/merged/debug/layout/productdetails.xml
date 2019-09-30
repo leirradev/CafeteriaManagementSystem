@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/ImageViewProduct"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="false"
+        android:layout_marginRight="8dp" />
+
+    <!-- Foods Title -->
+    <TextView
+        android:id="@+id/TextViewProductTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="false"
+        android:layout_toRightOf="@+id/ImageViewProduct" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/TextViewProductDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:textColor="@color/description"
+        android:textSize="12dp"
+        android:layout_toRightOf="@+id/ImageViewProduct"
+        android:layout_below="@+id/TextViewProductTitle" />
+
+    <TextView
+        android:id="@+id/TextViewProductCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/ImageViewProduct"
+        android:layout_below="@+id/TextViewProductDetails" />
+
+    <!-- Genre -->
+
+    <TextView
+        android:id="@+id/TextViewProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/price"
+        android:textSize="13dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtcurrentcart"
+        android:id="@+id/txtViewCurrentlyInCart"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextViewProductPrice"
+        android:textSize="12.5dp"
+        android:textStyle="bold" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtsetquan"
+        android:id="@+id/ButtonAddToCart"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextViewProductCategory"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextQuantity"
+        android:hint="@string/quantity"
+        android:singleLine="true"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/ImageViewProduct"
+        android:layout_below="@+id/TextViewProductCategory" />
+
+    <!-- Release Year -->
+
+</RelativeLayout><!-- From: file:/C:/Users/leste/AndroidStudioProjects/RDZ%20Cafeteria/app/src/main/res/layout/productdetails.xml -->

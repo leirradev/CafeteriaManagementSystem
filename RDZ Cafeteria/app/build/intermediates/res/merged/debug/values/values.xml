@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/leste/AndroidStudioProjects/RDZ%20Cafeteria/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="description">#888888</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="price">#666666</color>
+    <!-- From: file:/C:/Users/leste/AndroidStudioProjects/RDZ%20Cafeteria/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="category">15dp</dimen>
+    <dimen name="description">12dp</dimen>
+    <dimen name="price">13dp</dimen>
+    <dimen name="title">17dp</dimen>
+    <!-- From: file:/C:/Users/leste/AndroidStudioProjects/RDZ%20Cafeteria/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Log Out</string>
+    <string name="amount">Price</string>
+    <string name="app_name">Prepaid Cafeteria</string>
+    <string name="btncancel">Cancel</string>
+    <string name="btncheckout">Checkout</string>
+    <string name="btnclose">Close</string>
+    <string name="btnlogin">Log In</string>
+    <string name="btnremovecart">Remove from Cart</string>
+    <string name="btnviewcart">View Food Cart</string>
+    <string name="checkbal">Check Balance</string>
+    <string name="date">Date of Transaction</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="forgotpass">Forgot password? Click here</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="id">Transaction ID</string>
+    <string name="itemscart">0 items in cart</string>
+    <string name="menulogout">Log Out</string>
+    <string name="product">Product Name</string>
+    <string name="quantity">E.g. 1</string>
+    <string name="quantityy">Quantity</string>
+    <string name="refresh">Refresh</string>
+    <string name="submit">Submit</string>
+    <string name="timec">Time Claimed</string>
+    <string name="timeo">Time Ordered</string>
+    <string name="txtbillinfo">Billing Information</string>
+    <string name="txtcart">Shopping Cart</string>
+    <string name="txtcartsum">Cart Summary</string>
+    <string name="txtcateg">Category</string>
+    <string name="txtcheckout">Proceed to Checkout</string>
+    <string name="txtcheckoutnow">Checkout</string>
+    <string name="txtclickonlist">Click on product to edit quantity</string>
+    <string name="txtcurrentcart">Currently in Cart</string>
+    <string name="txtdesc">Description</string>
+    <string name="txtitems">Items in Cart</string>
+    <string name="txtlogin">Log In</string>
+    <string name="txtnointernet">No Connectivity</string>
+    <string name="txtnotconnected">Your computer isn’t connected to the Internet.</string>
+    <string name="txtpass">Password</string>
+    <string name="txtpeso">P</string>
+    <string name="txtprodid">ID</string>
+    <string name="txtproductcatalog">Product Catalog</string>
+    <string name="txtquantity">Quantity</string>
+    <string name="txtremovecart">Remove from Cart</string>
+    <string name="txtretrievepw">Manage Account</string>
+    <string name="txtsearch">Search any...</string>
+    <string name="txtsetquan">Add Quantity</string>
+    <string name="txtstatus">Status</string>
+    <string name="txtsubtotal">Subtotal</string>
+    <string name="txttotal">Total Price</string>
+    <string name="txttrans">Transaction History</string>
+    <string name="txtuser">Username</string>
+    <string name="viewtrans">View Transaction History</string>
+    <!-- From: file:/C:/Users/leste/AndroidStudioProjects/RDZ%20Cafeteria/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\leste\AndroidStudioProjects\RDZ Cafeteria\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="C:\Users\leste\AndroidStudioProjects\RDZ Cafeteria\app\build\intermediates\pre-dexed\debug\android-support-v4-0270465b439505d94c20e82307a73dbe0139e8c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\leste\AndroidStudioProjects\RDZ Cafeteria\app\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\leste\AndroidStudioProjects\RDZ Cafeteria\app\build\intermediates\pre-dexed\debug\volley-bb6a6ef0b5ad93ab41575a07cf47b2197a15b236.jar" />
+    </item>
+
+</items>

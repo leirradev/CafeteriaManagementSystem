@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<user>
+  <user_id id="29">
+    <username>12100190</username>
+    <password>delacruz</password>
+    <fname>John Dominic</fname>
+    <lname>Dela Cruz</lname>
+    <contact_number>639272000356</contact_number>
+    <contact_guardian>639272000356</contact_guardian>
+    <load>256</load>
+    <status>ACTIVE</status>
+    <deleted>0</deleted>
+  </user_id>
+  <user_id id="30">
+    <username>12100191</username>
+    <password>carlangelo</password>
+    <fname>Carl Angelo</fname>
+    <lname>Arnante</lname>
+    <contact_number>639272000356</contact_number>
+    <contact_guardian>639272000356</contact_guardian>
+    <load>400</load>
+    <status>ACTIVE</status>
+    <deleted>0</deleted>
+  </user_id>
+</user>

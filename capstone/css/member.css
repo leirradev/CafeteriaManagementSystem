@@ -1,0 +1,101 @@
+#addcontent{
+	margin-left: 5;
+	position: absolute;
+	width: 1150px;
+	height: 490px;
+	margin-top: 70;	
+}
+
+
+.icons{
+	width: 50px;
+	height:50px;
+	vertical-align:middle;
+}
+#addadmin{
+	position: absolute;
+	top: 20;
+	left: 70;
+	border-radius: 5px;
+	background-color: green;
+	padding: 5 5 5 5;
+	font-family: Calibri;
+	font-weight: bold;
+	cursor: pointer;
+}
+#closefrm{
+	position: absolute;
+	top: 0;
+	left: 280;
+}
+#closefrm1{
+	position: absolute;
+	top: 0;
+	left: 280;
+}
+#addform{
+	position: absolute;
+	left: 2000;
+	display: none;
+	background-color: #616161;
+	padding: 15 15 15 15;
+	
+}
+#tablecategory{
+	border-collapse: collapse;
+	border: solid black 1px;
+	position: absolute;
+	top: 100px;
+}
+#tablecategory1{
+	border-collapse: collapse;
+	border: solid black 1px;
+	position: absolute;
+	top: 100px;
+	left: 220px;
+}
+#tablecategory td {
+	border: solid black 1px;
+}
+#tablecategory1 td {
+	border: solid black 1px;
+}
+#addtitle2{
+	width: 100%;
+	color: white;
+	padding: 5 5 5 5;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 18px;
+}
+.labels{
+	font-family: Calibri;
+	font-weight: bold;
+}
+#tablecontainer{
+	position: absolute;
+	top:85;
+	left: 20;
+	text-align:center;
+}
+#editcon{
+	position: fixed;
+	z-index: 9;
+	left: 865;
+	top: 1000;
+	width: 210px;
+	height: 380px;
+	border-radius: 5px;
+	background-color: #d8d8d8;
+	text-align: center;
+	padding: 5 5 5 40;
+}
+#edittable{
+	width: 100%;
+}
+
+#search{
+	position: absolute;
+	top: 25px;
+	
+}

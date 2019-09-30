@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+
+    <!-- Framelayout to display Fragments -->
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="top|center">
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:hint="@string/txtuser"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColorHint="#adadad"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_below="@+id/haha"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/txtpass"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColorHint="#adadad"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/forgotpass"
+                android:id="@+id/forgotpass"
+                android:textColor="#fff9fa"
+                android:layout_marginTop="5dp" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pass"
+                android:layout_centerHorizontal="true"
+                android:text="@string/btnlogin"
+                android:textColor="#ffffffff"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Listview to display slider menu -->
+
+</LinearLayout><!-- From: file:/C:/Users/leste/AndroidStudioProjects/RDZ%20Cafeteria/app/src/main/res/layout/activity_main.xml -->

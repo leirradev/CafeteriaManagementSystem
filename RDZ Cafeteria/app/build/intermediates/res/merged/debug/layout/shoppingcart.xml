@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:weightSum="1"
+    android:background="@drawable/splash">
+
+    <!--<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+        android:hint="@string/txtsearch"
+        android:label="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></searchable>
+-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/itemscart"
+            android:textSize="11dp"
+            android:text="@string/itemscart"
+            android:layout_alignParentTop="false" />
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/usersession"
+            android:textSize="11dp"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentTop="false"
+            android:gravity="right" />
+    </RelativeLayout>
+
+    <TextView android:layout_height="wrap_content" android:id="@+id/TextViewSubtotal"
+        android:layout_width="fill_parent" android:layout_margin="5dip"
+        android:textColor="#000000" android:text="@string/txtsubtotal" android:textStyle="bold|italic"
+        android:textSize="20.5dp"
+        android:visibility="gone"></TextView>
+    <ListView android:layout_height="wrap_content"
+        android:id="@+id/ListViewCatalog"
+        android:layout_width="fill_parent" android:background="#ffffff"
+        android:cacheColorHint="#ffffff" android:clickable="true"
+        android:choiceMode="multipleChoice"
+        android:layout_marginTop="10dp">
+
+    </ListView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactpar"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/product"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantity"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/load"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/deza"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+
+</LinearLayout><!-- From: file:/C:/Users/leste/AndroidStudioProjects/RDZ%20Cafeteria/app/src/main/res/layout/shoppingcart.xml -->

@@ -1,0 +1,26 @@
+#tablecontainer{
+	position: absolute;
+	top:85;
+	left: 20;
+}
+#editcon{
+	position: fixed;
+	z-index: 9;
+	left: 865;
+	top: 1000;
+	width: 210px;
+	height: 380px;
+	border-radius: 5px;
+	background-color: #d8d8d8;
+	text-align: center;
+	padding: 5 5 5 40;
+}
+#edittable{
+	width: 100%;
+}
+
+#search{
+	position: relative;
+	top: 15;
+	left:20;
+}

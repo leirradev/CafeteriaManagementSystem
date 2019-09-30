@@ -1,0 +1,195 @@
+body{
+	margin: -5 -5 -5 -5;
+	overflow: hidden;
+}
+#lalagyan{
+	margin-top: 15px;
+	margin-left: 30px;
+}
+#addtable{
+	position: absolute;
+	left: 30;
+	top:55;
+}
+
+#addtitle{
+	position: absolute;
+	color: #eaeaea;
+	top: 10;
+	font-size: 22px;
+	font-weight: bold;
+	width: 97.5%;
+	padding: 5 5 5 5;
+	background-color: #353535;
+	font-family: Calibri;
+	text-indent:10px;
+}
+
+#logo{
+	position: absolute;
+	top: 20;
+	left: 50;
+	width: 120px;
+	height: 120px;
+}
+
+#links1,#links5,#links6,#links7,#links8{
+	width: 225px;
+	position: absolute;
+	font-family: Segoe Script;
+	padding: 5 5 5 35;
+	text-decoration: none;
+	text-align:left;
+	color: #b7e7fb;
+	transition:background-color 1.5s,color 1.5s,padding .5s;
+}
+
+#links1:hover,#links5:hover,#links6:hover,#links7:hover,#links8:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	padding: 5 5 5 25;
+	width: 205px;
+	
+}
+
+#links1{top: 170;}
+#links5{top: 205;}
+#links6{top: 240;}
+#links7{top: 275;}
+#links8{top: 310;}
+
+
+#header{
+	height: 100px;
+	background-color: #262626;
+	width: 1500px;	
+	color: white;
+	position:relative;
+	top: -20px;
+	-webkit-box-shadow:2px 2px 100px 1px rgba(0,0,0,0.8) inset;
+}
+
+#setting{
+	position:relative;
+	font-family: Calibri;
+	height: 20px;
+	background-color: #f9b027;
+	width: 1500px;	
+	top: -20;
+	-webkit-box-shadow:2px 2px 25px 1px rgba(0,0,0,0.8) inset;
+	direction:rtl;
+	text-indent:50px;
+	font-size: 19px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+#homecontainer,#productcontainer,#messagecontainer,#requestcontainer, #membercontainer, #editwebsitecontainer{
+	position: absolute;
+	background-image: url('../images/angbg.jpg');
+	width: 100%;
+	top: 115;
+	left: 0;
+	height: 100%;
+	-webkit-box-shadow:0px 0px 25px 1px rgba(0,0,0,0.8) inset;
+}
+
+
+#productcontainer{background-color: #f6c4ff; left: 1500;}
+#messagecontainer{background-color: #f0ff86; left: 1500;}
+#requestcontainer{background-color: #ffd8a6; left: 1500;}
+#membercontainer{background-color: #fff394; left: 1500;}
+#editwebsitecontainer{background-color: #c3ffa0; left: 1500;overflow-x:scroll;}
+
+#btnadd,#btnedit,#btnfeature{
+	position: absolute;
+	width: 150px;
+	height: 25px;
+	color: #272727;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: Verdana;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	top: 5;
+	padding: 5 25 5 25;
+	text-align:center;
+	box-shadow: 5px 2px 5px rgba(0,0,0,0.8);
+	-webkit-transition:top .5s; /* For Safari 3.1 to 6.0 */
+	transition:top .5s;
+}
+
+#btnadd{
+	z-index:3;
+	left: 5;
+	background-color: #2d8fdb;
+}
+
+#btnedit{
+	z-index: 2;
+	left: 170;
+	background-color: #7FA3BF;
+}
+
+#btnfeature{
+	z-index: 1;
+	left: 330;
+	background-color: #8DCEFF;
+}
+
+#btnadd:hover,#btnedit:hover,#btnfeature:hover{top: 0px;}
+
+#addcontent,#editcontent,#featuredcontent{
+	left: 5;
+	position: absolute;
+	width: 895px;
+	height: 445px;
+	top: 35;
+	padding: 5 5 5 5;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	
+}
+
+#addcontent{background-color: #2d8fdb; z-index:4;}
+#editcontent{background-color: #7FA3BF; overflow-y: scroll; z-index: 1;}
+#featuredcontent{background-color: #8DCEFF; z-index: 1; }
+#time{
+	font-family: Segoe UI;
+	font-size: 50px;
+	position: absolute;
+	left: 875;
+	color: #e4e4e4;
+	margin-top: -50px;
+}
+#date{
+	font-family: Segoe UI;
+	position: absolute;
+	left: 1000;
+	top: 40;
+	font-size: 20px;
+	color: #e4e4e4;
+}
+#day{
+	font-family: Segoe UI;
+	position: absolute;
+	left: 1000;
+	font-size: 20px;
+	top: 20;
+	color: #e4e4e4;
+}
+#catalogTable{
+	position:absolute;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 600px;
+}
+#catalogTable td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.icons{
+	width: 25px;
+	height:25px;
+	vertical-align:middle;
+}

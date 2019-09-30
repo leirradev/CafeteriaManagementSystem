@@ -1,0 +1,10 @@
+#tablecategory{
+	border-collapse: collapse;
+	border: solid black 1px;
+	position: absolute;
+	top: 100px;
+	left: 35px;
+}
+#tablecategory td {
+	border: solid black 1px;
+}

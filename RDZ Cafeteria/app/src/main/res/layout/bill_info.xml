@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtcartsum"
+        android:id="@+id/textView5"
+        android:background="#ffffff"
+        android:textSize="11dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:layout_below="@+id/total">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/prodname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView10"
+                    android:text="@string/product"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp" />
+
+                <TextView
+                    android:id="@+id/proddesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView12"
+                    android:layout_toRightOf="@+id/textView11"
+                    android:text="@string/txtdesc"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp" />
+
+                <TextView
+                    android:id="@+id/prodcateg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="@string/txtcateg"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp" />
+
+                <TextView
+                    android:id="@+id/prodqty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="@string/quantityy"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp" />
+
+                <TextView
+                    android:id="@+id/prodprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="@string/amount"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp" />
+
+                <TextView
+                    android:id="@+id/prodsub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="@string/txtsubtotal"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/pname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView10"
+                    android:text="@string/product"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:id="@+id/pdes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView12"
+                    android:layout_toRightOf="@+id/textView11"
+                    android:text="@string/txtdesc"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:id="@+id/pcateg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="@string/txtcateg"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:id="@+id/pqty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="@string/quantityy"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:id="@+id/pprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="@string/amount"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:id="@+id/psubtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="@string/txtsubtotal"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom|right"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#ffffff"
+                    android:text="@string/btncancel" />
+
+                <Button
+                    android:id="@+id/checkout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#ffffff"
+                    android:text="@string/txtcheckoutnow" />
+
+            </LinearLayout>
+
+        </TableLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txttotal"
+        android:id="@+id/total"
+        android:background="#ffffff"
+        android:gravity="right"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView5"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
